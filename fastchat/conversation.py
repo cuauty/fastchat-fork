@@ -2104,6 +2104,7 @@ register_conv_template(
         name="bailing",
         system_message="",
         roles=("user", "assistant"),
+        messages=[],
         sep_style=None,
         sep=None,
     )
