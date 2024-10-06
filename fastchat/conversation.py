@@ -2282,7 +2282,7 @@ register_conv_template(
         sep=None,
     )
 )
-      
+
 register_conv_template(
     Conversation(
         name="grok-2",

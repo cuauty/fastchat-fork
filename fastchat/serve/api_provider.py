@@ -1329,7 +1329,7 @@ def metagen_api_stream_iter(
                 part = json.loads(line.decode("utf-8"))
                 if "text" in part:
                     text += part["text"]
-                data = {  
+                data = {
                     "text": text,
                     "error_code": 0,
                 }
@@ -1340,6 +1340,7 @@ def metagen_api_stream_iter(
             "text": f"**API REQUEST ERROR** Reason: Unknown.",
             "error_code": 1,
         }
+
 
 def bailing_api_stream_iter(
     model_name,
